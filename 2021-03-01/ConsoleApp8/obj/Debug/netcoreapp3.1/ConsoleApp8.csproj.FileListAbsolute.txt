@@ -11,3 +11,16 @@ C:\Users\Administrator\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp
 C:\Users\Administrator\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.dll
 C:\Users\Administrator\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.pdb
 C:\Users\Administrator\source\repos\ConsoleApp8\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.exe
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.deps.json
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.runtimeconfig.json
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.pdb
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.pdb
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-01\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.genruntimeconfig.cache

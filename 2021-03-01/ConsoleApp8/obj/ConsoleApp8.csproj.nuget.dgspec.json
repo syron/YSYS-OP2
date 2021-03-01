@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Code\\YSYS-OP2\\2021-03-01\\ConsoleApp8\\ConsoleApp8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Code\\YSYS-OP2\\2021-03-01\\ConsoleApp8\\ConsoleApp8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Code\\YSYS-OP2\\2021-03-01\\ConsoleApp8\\ConsoleApp8.csproj",
         "projectName": "ConsoleApp8",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\ConsoleApp8\\ConsoleApp8\\ConsoleApp8.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Code\\YSYS-OP2\\2021-03-01\\ConsoleApp8\\ConsoleApp8.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\ConsoleApp8\\ConsoleApp8\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Code\\YSYS-OP2\\2021-03-01\\ConsoleApp8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

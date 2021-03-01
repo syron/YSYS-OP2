@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ConsoleApp8.Models
@@ -8,7 +9,6 @@ namespace ConsoleApp8.Models
     {
         int _maxPlayers;
         int _maxDiceThrowsPerPlayer;
-        
         
         public List<Player> Players;
 
@@ -38,6 +38,18 @@ namespace ConsoleApp8.Models
                     player.ThrowDice();
                 }
             }
+        }
+
+        public Player GetWinner()
+        {
+            Player playerWithHighestAmount = null;
+
+            playerWithHighestAmount = Players.OrderByDescending(
+                p => p.Dices.Sum(
+                    dice => dice.Result)).First();
+
+
+            return playerWithHighestAmount;
         }
     }
 }

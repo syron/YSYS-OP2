@@ -1,6 +1,7 @@
 ﻿using ConsoleApp8.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApp8
 {
@@ -8,49 +9,47 @@ namespace ConsoleApp8
     {
         static void Main(string[] args)
         {
-            var playerOne = new Player("Robert");
-            var playerTwo = new Player("Winston");
-            var playerThree = new Player("Leonard");
+            //var playerOne = new Player("Robert");
+            //var playerTwo = new Player("Winston");
+            //var playerThree = new Player("Leonard");
 
+            //var game = new Game();
+            //game.AddPlayer(playerOne);
+            //game.AddPlayer(playerTwo);
+            //game.AddPlayer(playerThree);
 
-            var game = new Game();
-            game.AddPlayer(playerOne);
-            game.AddPlayer(playerTwo);
-            game.AddPlayer(playerThree);
+            //try
+            //{
+            //    game.AddPlayer(new Player("Jesko"));
+            //}
+            //catch
+            //{
+            //    // Fråga användaren om hen vill fortsätta med de 3 befintliga spelarna
+            //}
 
-            try
-            {
-                game.AddPlayer(new Player("Jesko"));
-            }
-            catch
-            {
-                // Fråga användaren om hen vill fortsätta med de 3 befintliga spelarna
-            }
+            //game.Run();
 
-            game.Run();
+            //foreach (var currentPlayer in game.Players)
+            //{
+            //    Console.WriteLine(currentPlayer.Name);
+            //    currentPlayer.Dices.ForEach(d => Console.WriteLine(d.Result));
+            //}
 
-
-            foreach (var player in game.Players)
-            {
-                var firstDice = player.Dices[0];
-                if (firstDice.Result != 6)
-                {
-                    firstDice.Throw();
-                }
-            }
-
-
-
-            Console.ReadLine();
+            //var player = game.GetWinner();
+            //Console.WriteLine(player.Name);
 
 
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.ReadLine();
+
+
+
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
 
 
@@ -65,6 +64,47 @@ namespace ConsoleApp8
             listOfName.Add(name1);
             listOfName.Add(name2);
             listOfName.Add(name3);
+
+
+            listOfName = new List<string>()
+            {
+                "Robert"
+                , "Winston"
+                , "Leonard"
+                , "Jesko"
+                , "Paul"
+                , "Christian"
+                , "Jessica"
+                , "Marie", "Emilio", "Leonell", "Ellie", "Solveig", "Stina"
+            };
+
+            var firstItemINList = listOfName.First() ;
+            var lastItem = listOfName.Last();
+
+            List<string> nNames = new List<string>();
+            foreach (var name in listOfName)
+            {
+                if (name.Contains("n")) nNames.Add(name);
+            }
+
+            nNames = listOfName.Where(n => n.Contains("n")).ToList();
+
+            var newListWithNamesGt5 = listOfName.Where(n => n.Length > 5).ToList();
+
+
+            List<int> listOfInt = new List<int>() { 1, 2, 3, 5, 5, 1, 2, 3, 12, 125, 25, 25 };
+
+            listOfInt.ForEach(i => Console.WriteLine(i));
+
+            var sortedList = listOfInt.OrderByDescending(i => i);
+            Console.WriteLine(sortedList.First());
+
+            Console.WriteLine("Sum: " + listOfInt.Sum());
+            Console.WriteLine("Max: " + listOfInt.Max());
+            Console.ReadLine();
+
+
+
 
             listOfName.ToArray();
 

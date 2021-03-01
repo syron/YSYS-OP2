@@ -7,6 +7,11 @@ namespace ConsoleApp8
 {
     class Program
     {
+        public static void WriteList(List<string> write, string prefix)
+        {
+            write.ForEach(w => Console.WriteLine(prefix + w));
+        }
+
         static void Main(string[] args)
         {
             //var playerOne = new Player("Robert");
@@ -75,8 +80,31 @@ namespace ConsoleApp8
                 , "Paul"
                 , "Christian"
                 , "Jessica"
-                , "Marie", "Emilio", "Leonell", "Ellie", "Solveig", "Stina"
+                , "Marie"
+                , "Emilio", "Leonell", "Ellie", "Solveig", "Stina"
             };
+
+
+            listOfName.ForEach(hsfhjsdkhfjkhsdfds => Console.WriteLine(hsfhjsdkhfjkhsdfds));
+
+            var sortedListByLength = listOfName.OrderBy(name => name.Length);
+            var firstItem = listOfName.First();
+            var namesWithGt6 = listOfName.Where(name => name.Length > 6);
+
+            var namesWithGt6y = listOfName
+                .Where(name => name.Length > 6 && name.Contains('h'))
+                .OrderByDescending(name => name)
+                .Select(name => name.ToUpper().Substring(0, 2));
+
+            var newList = new List<string>();
+            foreach (var name in listOfName)
+            {
+                if (name.Length > 6) newList.Add(name);
+            }
+
+            var namesWithN = listOfName.Where(name => name.Contains('n'));
+            WriteList(namesWithGt6y.ToList(), "GT6 ");
+
 
             var firstItemINList = listOfName.First() ;
             var lastItem = listOfName.Last();

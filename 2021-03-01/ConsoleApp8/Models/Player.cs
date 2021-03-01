@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp8.Models
 {
-    class Player
+    public class Player
     {
         public string Name { get; set; }
         public List<Dice> Dices { get; set; }

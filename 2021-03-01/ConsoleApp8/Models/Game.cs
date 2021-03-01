@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConsoleApp8.Models
 {
-    class Game
+    public class Game
     {
         int _maxPlayers;
         int _maxDiceThrowsPerPlayer;

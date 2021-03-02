@@ -1,0 +1,15 @@
+/Users/robertmayer/Projects/linq-tester/console-extension/bin/Debug/net5.0/console-extension.deps.json
+/Users/robertmayer/Projects/linq-tester/console-extension/bin/Debug/net5.0/console-extension.runtimeconfig.json
+/Users/robertmayer/Projects/linq-tester/console-extension/bin/Debug/net5.0/console-extension.runtimeconfig.dev.json
+/Users/robertmayer/Projects/linq-tester/console-extension/bin/Debug/net5.0/console-extension.dll
+/Users/robertmayer/Projects/linq-tester/console-extension/bin/Debug/net5.0/ref/console-extension.dll
+/Users/robertmayer/Projects/linq-tester/console-extension/bin/Debug/net5.0/console-extension.pdb
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.csprojAssemblyReference.cache
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.AssemblyInfoInputs.cache
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.AssemblyInfo.cs
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.csproj.CoreCompileInputs.cache
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.dll
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/ref/console-extension.dll
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.pdb
+/Users/robertmayer/Projects/linq-tester/console-extension/obj/Debug/net5.0/console-extension.genruntimeconfig.cache

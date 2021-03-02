@@ -1,0 +1,15 @@
+/Users/robertmayer/Projects/linq-tester/name-linq/bin/Debug/net5.0/name-linq.deps.json
+/Users/robertmayer/Projects/linq-tester/name-linq/bin/Debug/net5.0/name-linq.runtimeconfig.json
+/Users/robertmayer/Projects/linq-tester/name-linq/bin/Debug/net5.0/name-linq.runtimeconfig.dev.json
+/Users/robertmayer/Projects/linq-tester/name-linq/bin/Debug/net5.0/name-linq.dll
+/Users/robertmayer/Projects/linq-tester/name-linq/bin/Debug/net5.0/ref/name-linq.dll
+/Users/robertmayer/Projects/linq-tester/name-linq/bin/Debug/net5.0/name-linq.pdb
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.csprojAssemblyReference.cache
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.AssemblyInfoInputs.cache
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.AssemblyInfo.cs
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.csproj.CoreCompileInputs.cache
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.dll
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/ref/name-linq.dll
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.pdb
+/Users/robertmayer/Projects/linq-tester/name-linq/obj/Debug/net5.0/name-linq.genruntimeconfig.cache

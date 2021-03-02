@@ -1,0 +1,15 @@
+/Users/robertmayer/Projects/linq-tester/PlayerStore/bin/Debug/net5.0/PlayerStore.deps.json
+/Users/robertmayer/Projects/linq-tester/PlayerStore/bin/Debug/net5.0/PlayerStore.runtimeconfig.json
+/Users/robertmayer/Projects/linq-tester/PlayerStore/bin/Debug/net5.0/PlayerStore.runtimeconfig.dev.json
+/Users/robertmayer/Projects/linq-tester/PlayerStore/bin/Debug/net5.0/PlayerStore.dll
+/Users/robertmayer/Projects/linq-tester/PlayerStore/bin/Debug/net5.0/ref/PlayerStore.dll
+/Users/robertmayer/Projects/linq-tester/PlayerStore/bin/Debug/net5.0/PlayerStore.pdb
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.csprojAssemblyReference.cache
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.AssemblyInfoInputs.cache
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.AssemblyInfo.cs
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.csproj.CoreCompileInputs.cache
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.dll
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/ref/PlayerStore.dll
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.pdb
+/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/Debug/net5.0/PlayerStore.genruntimeconfig.cache

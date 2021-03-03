@@ -49,14 +49,55 @@ namespace console_extension
 
             return string.Join(string.Empty, stringInput.Take(2)).ToUpper();
         }
+
+        public static string Versatilizaastoosanon(this string stringInput, int numberOfChars)
+        {
+            return string.Join(string.Empty, stringInput.Take(numberOfChars)).ToUpper();
+        }
+
+        /// <summary>
+        /// Inspired by D.S. :) 
+        /// </summary>
+        /// <param name="stringInput"></param>
+        /// <param name="numberOfChars"></param>
+        /// <returns></returns>
+        public static string Versatilizaastoosanon_v2(this string stringInput, int numberOfChars)
+        {
+            // Check if numberofchars is 0 or below 0. If yes, return empty string.
+            if (numberOfChars <= 0)
+                return string.Empty;
+
+            // Check if numberofchars is higher than the number of digits in string. If yes, change it to length of string.
+            if (numberOfChars > stringInput.Length)
+                numberOfChars = stringInput.Length;
+
+            // Check if numberofchars is equal the number of digits in string. If yes, return string in uppercase.
+            if (numberOfChars == stringInput.Length)
+                return stringInput.ToUpper();
+
+            var chars = stringInput.ToArray();
+
+            string result = string.Empty;
+            for (int i = 0; i < numberOfChars; i++)
+            {
+                result += chars[i];
+            }
+            
+            return result.ToUpper();
+        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            Exercise1("Robert");
-            
+            var hello = "Hello World";
+
+            Console.WriteLine(hello.Versatilizaastoosanon_v2(2));
+
+            Console.WriteLine(hello.Versatilizaastoosanon_v2(10));
+
+            Console.WriteLine(hello.Versatilizaastoosanon_v2(-1));
         }
 
         static void Exercise1(string input)

@@ -7,11 +7,11 @@ using PlayerStore.Models;
 
 namespace PlayerStore.Repositories
 {
-    public class UsersRepository
+    public class PlayersDbRepository : IPlayersRepository
     {
         private string _fileName;
 
-        public UsersRepository(string fileName)
+        public PlayersDbRepository(string fileName)
         {
             _fileName = fileName;
         }

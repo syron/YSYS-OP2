@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robertmayer/Projects/linq-tester/ColdJurkey/ColdJurkey.csproj",
+      "projectUniqueName": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/ColdJurkey/ColdJurkey.csproj",
       "projectName": "ColdJurkey",
-      "projectPath": "/Users/robertmayer/Projects/linq-tester/ColdJurkey/ColdJurkey.csproj",
+      "projectPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/ColdJurkey/ColdJurkey.csproj",
       "packagesPath": "/Users/robertmayer/.nuget/packages/",
-      "outputPath": "/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/",
+      "outputPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/ColdJurkey/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robertmayer/.config/NuGet/NuGet.Config"

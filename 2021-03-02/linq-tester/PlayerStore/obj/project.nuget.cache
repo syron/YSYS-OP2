@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1SNE7h6cab9FeRd9d1lUtO4f6dcWNHYtuNfUKFOraySMbdgprh+NcObjrIeJ/GG4SgPprSqswOHO5jQHH4lDUA==",
+  "dgSpecHash": "Qlf2MacqZGzGEG5vD2nnRYF++aA8FMQU1RVqSZACiYMgvuHhYscFa/8ww3T+1EdDxdfkZkpc3flmDCYftWWUtQ==",
   "success": true,
-  "projectFilePath": "/Users/robertmayer/Projects/linq-tester/PlayerStore/PlayerStore.csproj",
+  "projectFilePath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/PlayerStore/PlayerStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robertmayer/Projects/linq-tester/PlayerStore/PlayerStore.csproj",
+      "projectUniqueName": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/PlayerStore/PlayerStore.csproj",
       "projectName": "PlayerStore",
-      "projectPath": "/Users/robertmayer/Projects/linq-tester/PlayerStore/PlayerStore.csproj",
+      "projectPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/PlayerStore/PlayerStore.csproj",
       "packagesPath": "/Users/robertmayer/.nuget/packages/",
-      "outputPath": "/Users/robertmayer/Projects/linq-tester/PlayerStore/obj/",
+      "outputPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/PlayerStore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robertmayer/.config/NuGet/NuGet.Config"

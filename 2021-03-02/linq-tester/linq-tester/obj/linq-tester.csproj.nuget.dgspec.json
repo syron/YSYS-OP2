@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/robertmayer/Projects/linq-tester/linq-tester/linq-tester.csproj": {}
+    "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/linq-tester/linq-tester.csproj": {}
   },
   "projects": {
-    "/Users/robertmayer/Projects/linq-tester/linq-tester/linq-tester.csproj": {
+    "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/linq-tester/linq-tester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robertmayer/Projects/linq-tester/linq-tester/linq-tester.csproj",
+        "projectUniqueName": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/linq-tester/linq-tester.csproj",
         "projectName": "linq-tester",
-        "projectPath": "/Users/robertmayer/Projects/linq-tester/linq-tester/linq-tester.csproj",
+        "projectPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/linq-tester/linq-tester.csproj",
         "packagesPath": "/Users/robertmayer/.nuget/packages/",
-        "outputPath": "/Users/robertmayer/Projects/linq-tester/linq-tester/obj/",
+        "outputPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/linq-tester/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/robertmayer/.config/NuGet/NuGet.Config"

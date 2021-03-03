@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{A41A227E-EC21-4C47-A848-5DFC13ACAD03}|Default">
   <MonoDevelop.Ide.ItemProperties.PlayerStore PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PlayerStore/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlayerStore/Repositories/IPlayersRepository.cs">
     <Files>
-      <File FileName="linq-tester/UnitTest1.cs" Line="26" Column="10" />
-      <File FileName="name-linq/Program.cs" />
-      <File FileName="console-extension/Program.cs" Line="6" Column="2" />
-      <File FileName="ColdJurkey/Program.cs" Line="20" Column="1" />
-      <File FileName="PlayerStore/Program.cs" Line="33" Column="1" />
-      <File FileName="PlayerStore/Repositories/UsersRepository.cs" Line="12" Column="20" />
+      <File FileName="PlayerStore/Repositories/UsersRepository.cs" Line="16" Column="34" />
+      <File FileName="PlayerStore/Program.cs" Line="25" Column="59" />
+      <File FileName="PlayerStore/Services/UsersService.cs" Line="13" Column="41" />
+      <File FileName="PlayerStore/Repositories/PlayersRepository (copy).cs" Line="10" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,15 +17,21 @@
             <Node name="name-linq" expanded="True" />
             <Node name="PlayerStore" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Repositories" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="IPlayersRepository.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="linq-tester" expanded="True" selected="True" />
+          <Node name="linq-tester" expanded="True">
+            <Node name="linq-tester" expanded="True">
+              <Node name="linq_tester" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

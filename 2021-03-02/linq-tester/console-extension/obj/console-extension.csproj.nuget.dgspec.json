@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/robertmayer/Projects/linq-tester/console-extension/console-extension.csproj": {}
+    "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/console-extension/console-extension.csproj": {}
   },
   "projects": {
-    "/Users/robertmayer/Projects/linq-tester/console-extension/console-extension.csproj": {
+    "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/console-extension/console-extension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/robertmayer/Projects/linq-tester/console-extension/console-extension.csproj",
+        "projectUniqueName": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/console-extension/console-extension.csproj",
         "projectName": "console-extension",
-        "projectPath": "/Users/robertmayer/Projects/linq-tester/console-extension/console-extension.csproj",
+        "projectPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/console-extension/console-extension.csproj",
         "packagesPath": "/Users/robertmayer/.nuget/packages/",
-        "outputPath": "/Users/robertmayer/Projects/linq-tester/console-extension/obj/",
+        "outputPath": "/Users/robertmayer/Desktop/GIT/YSYS-OP2/2021-03-02/linq-tester/console-extension/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/robertmayer/.config/NuGet/NuGet.Config"

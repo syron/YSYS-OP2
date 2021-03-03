@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{A41A227E-EC21-4C47-A848-5DFC13ACAD03}|Default">
   <MonoDevelop.Ide.ItemProperties.PlayerStore PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PlayerStore/Repositories/PlayersRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlayerStore/Repositories/FilesRepository.cs">
     <Files>
-      <File FileName="PlayerStore/Repositories/UsersRepository.cs" Line="15" Column="10" />
-      <File FileName="PlayerStore/Program.cs" Line="25" Column="63" />
-      <File FileName="PlayerStore/Services/UsersService.cs" Line="20" Column="32" />
-      <File FileName="PlayerStore/Repositories/PlayersRepository (copy).cs" Line="10" Column="36" />
+      <File FileName="PlayerStore/Program.cs" Line="24" Column="69" />
+      <File FileName="PlayerStore/Services/PlayersService.cs" Line="35" Column="1" />
+      <File FileName="PlayerStore/Models/Player.cs" Line="1" Column="1" />
+      <File FileName="PlayerStore/Repositories/FilesRepository.cs" Line="17" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +18,7 @@
             <Node name="PlayerStore" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True">
-                <Node name="PlayersRepository.cs" selected="True" />
+                <Node name="FilesRepository.cs" selected="True" />
               </Node>
               <Node name="Services" expanded="True" />
             </Node>
@@ -27,11 +27,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="linq-tester" expanded="True">
-            <Node name="linq-tester" expanded="True">
-              <Node name="linq_tester" selected="True" />
-            </Node>
-          </Node>
+          <Node name="linq-tester" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

@@ -1,0 +1,15 @@
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/bin/Debug/net5.0/ColdJurkey.deps.json
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/bin/Debug/net5.0/ColdJurkey.runtimeconfig.json
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/bin/Debug/net5.0/ColdJurkey.runtimeconfig.dev.json
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/bin/Debug/net5.0/ColdJurkey.dll
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/bin/Debug/net5.0/ref/ColdJurkey.dll
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/bin/Debug/net5.0/ColdJurkey.pdb
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.csprojAssemblyReference.cache
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.AssemblyInfoInputs.cache
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.AssemblyInfo.cs
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.csproj.CoreCompileInputs.cache
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.dll
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ref/ColdJurkey.dll
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.pdb
+/Users/robertmayer/Projects/linq-tester/ColdJurkey/obj/Debug/net5.0/ColdJurkey.genruntimeconfig.cache

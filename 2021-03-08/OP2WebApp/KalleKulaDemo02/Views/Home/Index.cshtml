@@ -1,0 +1,28 @@
+﻿@model KalleKulaDemo02.Models.ViewModels.Home.IndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Welcome</h2>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h3>Karlstad</h3>
+        <p>@Model.KarlstadTemp</p>
+    </div>
+    <div class="col">
+        <h3>Stockholm</h3>
+        <p>@Model.StockholmTemp</p>
+    </div>
+    <div class="col">
+        <h3>Lund</h3>
+        <p>@Model.LundTemp</p>
+    </div>
+    <div class="col">
+        <h3>Buxtehude</h3>
+        <p>@Model.BuxtehudeTemp</p>
+    </div>
+</div>

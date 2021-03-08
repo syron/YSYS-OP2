@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wxAbaUCjl7U8Xxn99M0Kh36iXZ9TEiGny9VjyLUvqbYJNFlnY/BeHGQkf6MqXevNRPwULH7BVOHeUH0uQpD2vw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Code\\YSYS-OP2\\2021-03-08\\OP2WebApp\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

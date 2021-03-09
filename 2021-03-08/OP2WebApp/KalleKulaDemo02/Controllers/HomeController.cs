@@ -19,13 +19,13 @@ namespace KalleKulaDemo02.Controllers
             _logger = logger;
         }
 
+
         public async Task<IActionResult> Index(string city, string city2)
         {
             // visa temperaturen för: Karlstad, Stockholm, Lund, Buxtehude
             Stopwatch sw = new Stopwatch();
             sw.Start();
             WeatherService ws = new WeatherService();
-
 
             var karlstadTempTask = ws.TempAsync("Karlstad");
             var sthlmTempTask = ws.TempAsync("Stockholm");
@@ -59,6 +59,7 @@ namespace KalleKulaDemo02.Controllers
 
             return View(viewModel);
         }
+
 
         public IActionResult Search(string s)
         {

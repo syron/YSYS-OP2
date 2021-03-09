@@ -1,39 +1,39 @@
 ﻿@model KalleKulaDemo02.Models.ViewModels.Home.IndexViewModel
 
-@{
+    @{
     ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h2 class="display-4">Welcome</h2>
-
-    <form method="get">
-        <input type="text" name="city" id="city" />
-        <input type="text" name="city2" id="city2" />
-        <input type="submit" value="Kolla tempen" />
-    </form>
-
-    @if (Model.HasCustomTemp)
-    {
-        <p>I @Model.CustomTempName har det @Model.CustomTemp Celsius</p>
     }
-</div>
 
-<div class="row">
-    <div class="col">
-        <h3>Karlstad</h3>
-        <p>@Model.KarlstadTemp</p>
+    <div class="text-center">
+        <h2 class="display-4">Welcome</h2>
+
+        <form method="post">
+            <input type="text" name="city" id="city" />
+            <input type="text" name="city2" id="city2" />
+            <input type="submit" value="Kolla tempen" />
+        </form>
+
+        @if (Model.HasCustomTemp)
+        {
+            <p>I @Model.CustomTempName har det @Model.CustomTemp Celsius</p>
+        }
     </div>
-    <div class="col">
-        <h3>Stockholm</h3>
-        <p>@Model.StockholmTemp</p>
+
+    <div class="row">
+        <div class="col">
+            <h3>Karlstad</h3>
+            <p>@Model.KarlstadTemp</p>
+        </div>
+        <div class="col">
+            <h3>Stockholm</h3>
+            <p>@Model.StockholmTemp</p>
+        </div>
+        <div class="col">
+            <h3>Lund</h3>
+            <p>@Model.LundTemp</p>
+        </div>
+        <div class="col">
+            <h3>Buxtehude</h3>
+            <p>@Model.BuxtehudeTemp</p>
+        </div>
     </div>
-    <div class="col">
-        <h3>Lund</h3>
-        <p>@Model.LundTemp</p>
-    </div>
-    <div class="col">
-        <h3>Buxtehude</h3>
-        <p>@Model.BuxtehudeTemp</p>
-    </div>
-</div>

@@ -11,5 +11,10 @@ namespace KalleKulaDemo02.Models.ViewModels.Home
         public double StockholmTemp { get; set; }
         public double LundTemp { get; set; }
         public double BuxtehudeTemp { get; set; }
+
+
+        public bool HasCustomTemp { get; set; }
+        public string CustomTempName { get; set; }
+        public double CustomTemp { get; set; }
     }
 }

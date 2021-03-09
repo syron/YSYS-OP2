@@ -7,9 +7,11 @@ namespace KalleKulaDemo02.Services
 {
     public class NamesService
     {
-        public List<string> GetAllNames()
+        public List<string> Names { get; set; }
+
+        public NamesService()
         {
-            return new List<string>() {
+            Names = new List<string>() {
                 "Robert",
                 "Winston",
                 "Leonard",
@@ -19,21 +21,22 @@ namespace KalleKulaDemo02.Services
             };
         }
 
+        public List<string> GetAllNames()
+        {
+            return Names;
+        }
+
         public IEnumerable<string> GetServiceBySubstring(string s)
         {
-            var myList = new List<string>() {
-                "Robert",
-                "Winston",
-                "Leonard",
-                "Jesko",
-                "Paul",
-                "Christian"
-            };
-
             if (string.IsNullOrWhiteSpace(s))
-                return myList;
+                return Names;
 
-            return myList.Where(n => n.Contains(s));
+            return Names.Where(n => n.Contains(s));
+        }
+
+        public void Add(string name)
+        {
+            Names.Add(name);
         }
     }
 }

@@ -6,6 +6,17 @@
 
 <div class="text-center">
     <h2 class="display-4">Welcome</h2>
+
+    <form method="get">
+        <input type="text" name="city" id="city" />
+        <input type="text" name="city2" id="city2" />
+        <input type="submit" value="Kolla tempen" />
+    </form>
+
+    @if (Model.HasCustomTemp)
+    {
+        <p>I @Model.CustomTempName har det @Model.CustomTemp Celsius</p>
+    }
 </div>
 
 <div class="row">

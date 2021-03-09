@@ -8,7 +8,10 @@ using System.Threading.Tasks;
 
 namespace KalleKulaDemo02.ApiControllers
 {
-    [Route("api/v1/[controller]")]
+   /// <summary>
+   /// /api/names
+   /// </summary>
+    [Route("api/[controller]")]
     [ApiController]
     public class NamesController : ControllerBase
     {
@@ -43,8 +46,10 @@ namespace KalleKulaDemo02.ApiControllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
-        public string Post()
+        public string Post([FromBody]string name)
         {
+            var namesService = new NamesService();
+            namesService.Add(name);
             return "Robert";
         }
 
@@ -54,7 +59,7 @@ namespace KalleKulaDemo02.ApiControllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpPut]
-        public string Put(int id)
+        public string Put(int id, [FromBody]string name)
         {
             return "Robert2";
         }

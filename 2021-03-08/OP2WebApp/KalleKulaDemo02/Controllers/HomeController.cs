@@ -19,27 +19,43 @@ namespace KalleKulaDemo02.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string city, string city2)
         {
             // visa temperaturen för: Karlstad, Stockholm, Lund, Buxtehude
             Stopwatch sw = new Stopwatch();
             sw.Start();
             WeatherService ws = new WeatherService();
 
+
             var karlstadTempTask = ws.TempAsync("Karlstad");
             var sthlmTempTask = ws.TempAsync("Stockholm");
             var lundTempTask = ws.TempAsync("Lund");
             var buxtehudeTempTask = ws.TempAsync("Buxtehude");
+            Task<double> customTempTask = null;
 
-            Task.WaitAll(karlstadTempTask, sthlmTempTask, lundTempTask, buxtehudeTempTask);
+            if (!string.IsNullOrEmpty(city))
+            {
+                customTempTask = ws.TempAsync(city);
+                Task.WaitAll(karlstadTempTask, sthlmTempTask, lundTempTask, buxtehudeTempTask, customTempTask);
+            }
+            else
+            {
+                Task.WaitAll(karlstadTempTask, sthlmTempTask, lundTempTask, buxtehudeTempTask);
+            }
 
             sw.Stop();
-
             var viewModel = new Models.ViewModels.Home.IndexViewModel();
             viewModel.KarlstadTemp = karlstadTempTask.Result;
             viewModel.StockholmTemp = sthlmTempTask.Result;
             viewModel.LundTemp = lundTempTask.Result;
             viewModel.BuxtehudeTemp = buxtehudeTempTask.Result;
+
+            if (customTempTask != null)
+            {
+                viewModel.HasCustomTemp = true;
+                viewModel.CustomTempName = city;
+                viewModel.CustomTemp = customTempTask.Result;
+            }
 
             return View(viewModel);
         }

@@ -24,3 +24,10 @@ C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\ob
 C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete

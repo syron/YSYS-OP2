@@ -94,3 +94,9 @@ C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo0
 C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\obj\Debug\net5.0\ref\KalleKulaDemo02.dll
 C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\obj\Debug\net5.0\KalleKulaDemo02.pdb
 C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\obj\Debug\net5.0\KalleKulaDemo02.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\Code\YSYS-OP2\2021-03-08\OP2WebApp\KalleKulaDemo02\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

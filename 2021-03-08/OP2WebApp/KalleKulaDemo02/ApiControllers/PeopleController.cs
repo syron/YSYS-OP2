@@ -21,15 +21,19 @@ namespace KalleKulaDemo02.ApiControllers
         }
 
         [HttpGet]
-        public IEnumerable<Person> Get()
+        public IEnumerable<Person> Get(string s)
         {
+            if (!string.IsNullOrWhiteSpace(s))
+            {
+                return _ps.GetPeopleByName(s);
+            }
             return _ps.GetAll();
         }
 
         [HttpPost]
-        public IEnumerable<Person> Post([FromBody]List<Person> people)
+        public IEnumerable<Person> Post([FromBody]Person person)
         {
-            _ps.AddRange(people);
+            _ps.Add(person);
 
             return _ps.GetAll();
         }

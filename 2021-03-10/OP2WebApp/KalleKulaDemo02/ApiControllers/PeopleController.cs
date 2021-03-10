@@ -21,7 +21,7 @@ namespace KalleKulaDemo02.ApiControllers
         }
 
         [HttpGet]
-        public IEnumerable<Person> Get(string s)
+        public IEnumerable<Personv1> Get(string s)
         {
             if (!string.IsNullOrWhiteSpace(s))
             {
@@ -31,7 +31,7 @@ namespace KalleKulaDemo02.ApiControllers
         }
 
         [HttpPost]
-        public IEnumerable<Person> Post([FromBody]Person person)
+        public IEnumerable<Personv1> Post([FromBody]Personv1 person)
         {
             _ps.Add(person);
 

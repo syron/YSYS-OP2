@@ -9,16 +9,16 @@ namespace KalleKulaDemo02.Services
 {
     public class PeopleService
     {
-        public List<Person> People { get; set; }
+        public List<Personv1> People { get; set; }
 
         public PeopleService()
         {
             
         }
 
-        public List<Person> GetAll()
+        public List<Personv1> GetAll()
         {
-            List<Person> people = new List<Person>();
+            List<Personv1> people = new List<Personv1>();
 
             string connectionString = "Database=demo;Server=.;Integrated Security=SSPI";
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -33,7 +33,7 @@ namespace KalleKulaDemo02.Services
                     {
                         while (reader.Read())
                         {
-                            var person = new Person(reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
+                            var person = new Personv1(reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
                             people.Add(person);
                         }
                     }
@@ -43,12 +43,14 @@ namespace KalleKulaDemo02.Services
             return people;
         }
 
-        public IEnumerable<Person> GetPeopleByName(string s)
+        public IEnumerable<Personv1> GetPeopleByName(string s)
         {
             if (string.IsNullOrWhiteSpace(s))
                 return People;
 
-            List<Person> people = new List<Person>();
+            List<Personv1> people = new List<Personv1>();
+
+            // Scaffold-DbContext 'Database=demo;Server=.;Integrated Security=SSPI' Microsoft.EntityFrameworkCore.SqlServer
 
             string connectionString = "Database=demo;Server=.;Integrated Security=SSPI";
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -63,7 +65,7 @@ namespace KalleKulaDemo02.Services
                     {
                         while (reader.Read())
                         {
-                            var person = new Person(reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
+                            var person = new Personv1(reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
                             people.Add(person);
                         }
                     }
@@ -73,7 +75,7 @@ namespace KalleKulaDemo02.Services
             return people;
         }
 
-        public bool Add(Person person)
+        public bool Add(Personv1 person)
         {
             string connectionString = "Database=demo;Server=.;Integrated Security=SSPI";
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -92,7 +94,7 @@ namespace KalleKulaDemo02.Services
             }
         }
 
-        public void AddRange(List<Person> people)
+        public void AddRange(List<Personv1> people)
         {
             People.AddRange(people);
         }

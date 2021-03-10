@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-
-#nullable disable
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace KalleKulaDemo02.Models
 {
-    public partial class Person
+    public class Personv1
     {
-        public Person()
+        public Personv1(int id, string name, string city)
         {
-            Cars = new HashSet<Car>();
+            Id = id;
+            Name = name;
+            City = city;
         }
 
         public int Id { get; set; }
         public string Name { get; set; }
         public string City { get; set; }
-
-        public virtual ICollection<Car> Cars { get; set; }
     }
 }

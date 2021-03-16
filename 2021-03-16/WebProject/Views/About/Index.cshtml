@@ -1,0 +1,21 @@
+﻿@model AboutIndexViewModel
+
+@{
+}
+
+<h1>@Model.Person.Name</h1>
+
+<p>Date of birth: @Model.Person.DateOfBirth.ToString()</p>
+
+<hr />
+
+<h3>@Model.Dog.Name</h3>
+
+<hr />
+
+<ul>
+    @foreach (var attendee in Model.Attendees)
+    {
+        <li>@attendee.Name</li>
+    }
+</ul>
